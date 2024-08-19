@@ -1,0 +1,125 @@
+/* *{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 180px;
+    height: 100vh;
+background-color: rgb(25, 26, 27);
+    display: flex;
+    align-items: center;
+    padding: 200px;
+}
+
+button
+{
+    font-size: 20px;
+    width: 40px;
+    border-radius: 10px;
+    margin: 2px;
+    background-color: black;
+    color: orange;
+    border:5px;
+    border-style:ridge;
+    border-radius: 10px;
+    cursor: pointer;
+    border-color: wheat;
+}
+.buttons
+{
+
+}
+.calculator
+{
+    background-color: rgb(37, 32, 32);
+    border:10px;
+    border-style:ridge;
+    border-radius: 30px;
+    border-color:rgb(7, 7, 7);
+}
+
+#result{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:black;
+    color: white;
+    font-size: 25px;
+    text-align: right;
+
+}
+#result::placeholder{
+    color:white;
+    font-size: 25px;
+    text-align: right;
+    text-decoration:line-through;
+
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+ */
+
+
+ *{
+    padding: 0px;
+    margin: 0px;
+ }
+ body{
+    background-color: navy;
+    border:10px;
+    border-color: brown;
+    border-style:outset;
+
+ }
+
+ #heading{
+    color: brown;
+    background-color: white;
+    padding: 10px;
+    justify-content: center;
+   align-items: center;
+   display: flex;
+    
+ }
+
+ .calculator
+ {
+    height: 350px;
+    width: 200px;
+    margin-top: 20px;
+    background-color:brown;
+    align-items: center;
+    justify-content: center;
+   
+    border: 20px;
+    border-radius: 10px;
+    border-style:inherit;
+    border-width: 10px;
+ }
+
+ button{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2px;
+    background-color: black;
+    color:white;
+    font-size: larger;
+    width: 40px;
+  cursor: pointer;
+ }
+
+ #display
+ {
+margin: 5px;
+padding: 10px;
+text-align: right;
+font-family: 'Times New Roman', Times, serif;
+color: brown;
+ }
+
+ .btn-off{
+    float:right;
+    margin-right: 15px;
+    color: yellow;
+ } 
